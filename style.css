@@ -17,21 +17,21 @@ h1 {
 
 img {
     display: block;
-    max-width: 100%;
+    width: 100%;
+    height: 30rem;
     border-radius: 0.5rem;
 }  
 
 .container {
     margin: 0 auto;
     padding: 0 1rem;
-    max-width: 55rem;
+    max-width: 50rem;
 }
 
 .slider__wrap {
     padding: 1rem 0;
     display: flex;
-    flex-wrap: wrap;
-    
+    flex-wrap: wrap;    
   }
   .slider__images {
     order: 1;
