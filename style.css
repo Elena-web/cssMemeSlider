@@ -21,29 +21,50 @@ img {
     border-radius: 0.5rem;
 }  
 
-.slider {
-}
 .container {
     margin: 0 auto;
     padding: 0 1rem;
     max-width: 55rem;
 }
 
-
 .slider__wrap {
     padding: 1rem 0;
     display: flex;
     flex-direction: column;
 }
+
 .slider__images {
     order: 1;
     overflow: hidden;
 }
+
 .img-wrap {
     display: flex;
     transition: transform 0.5s linear;
 }
+
 .img {
     width: 40rem;
     height: 25rem;
+}
+
+.slider__content {
+    margin-top: 1.5rem;
+    order: 2;
+    max-width: 70%;
+    overflow: hidden;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 1.2rem;
+}
+
+.content-wrap {
+  display: flex;
+  transition: transform 0.3s linear;
+}
+
+.content-txt {
+    padding: 1rem;
+    min-width: 100%;
 }  
