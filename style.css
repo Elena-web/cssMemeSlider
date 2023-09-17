@@ -61,7 +61,7 @@ img {
   }
   
 .content-txt {
-    padding: 0.5rem;
+    padding: 0.5rem 0;
     min-width: 100%;
 }
 
@@ -92,10 +92,11 @@ img {
 }
 
 .label:hover {
-  outline-color: rgb(15, 16, 15);
+  outline-color: #fff;
+  background-color: #fff;
 }
 .label:active {
-  background-color: rgb(15, 16, 15);
+  background-color: #fff;
 }
 
 .control:checked + .label {
