@@ -99,10 +99,15 @@ img {
 }
 .label:active {
   background-color: #fff;
+  
 }
-
+.label:active {
+  background-color: rgb(16, 239, 16);
+  outline-color: rgb(16, 239, 16);
+}
 .control:checked + .label {
   background-color: transparent;
+  
 }
 
 .slider__controls:has(#control1:checked) ~ .slider__images .img-wrap {
